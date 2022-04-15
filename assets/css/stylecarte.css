@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0px; /* Pour supprimer les paramètres du navigateur par défaut*/
+    padding: 0px;/* Pour supprimer les paramètres du navigateur par défaut*/
+    overflow: hidden;
+    background-color: rgba(137, 121, 121, 0.273);
+}
+.bandeau{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.glaces_vins{
+    float: left;
+    width: 200px;
+
+}
