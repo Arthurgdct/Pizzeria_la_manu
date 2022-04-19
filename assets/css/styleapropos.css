@@ -1,0 +1,91 @@
+#apropos {
+    height: 780px;
+    width: 100%;
+}
+
+
+#apropos1 {
+    height: 195px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+#ss_apropos1_1 {
+    width: 70%;
+    display: flex;
+}
+
+#p_ss_apropos1_1 {
+    padding-left: 30px;
+    padding-right: 170px;
+    padding-top: 15px;
+}
+
+#ss_apropos1_2 {
+    width: 30%;
+    display: flex;
+}
+
+#apropos2 {
+    height: 315px;
+    width: 100%; 
+    display: flex;   
+}
+
+#ss_apropos2_1 {
+    width: 50%;
+    display: flex;
+       
+}
+
+#ss_apropos2_2 {
+    width: 50%;
+    display: flex;   
+}
+
+#p_ss_apropos2_2 {
+    padding: 50px 70px 10px 10px;
+}
+
+#apropos3 {
+    height:260px;
+    width: 100%;
+    display: flex;
+    
+}
+
+#ss_apropos3_1 {
+    width: 70%;
+    display: flex;    
+}
+
+#p_ss_a_propos3_1 {
+    padding-left: 30px;
+    padding-right: 170px;
+    padding-top: 50px;
+}
+
+#ss_apropos3_2 {
+    width: 40%;
+    display: flex;
+      
+}
+
+.Photo_Cuisinier3 {
+    height: 180px;
+    width: 400px;
+}
+
+.Photo_four2 {
+    height: 300px;
+    width: 570px;
+    padding-left: 70px;
+
+}
+
+.Photo_restaurant3 {
+    height: 250px;
+    width: 460px;
+    }

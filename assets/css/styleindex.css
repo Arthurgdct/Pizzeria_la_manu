@@ -1,0 +1,71 @@
+#menu {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    overflow: hidden;
+    background-color: #a19e94;
+}
+
+li {
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #fff;
+}
+
+.active {
+    color: #fff;
+}
+
+#fond img {
+position: absolute;
+width: 80%;
+height: 45rem;
+left: 10%;
+top: 11rem;
+max-height: 45rem;
+background: url(restaurantfond.jpg);
+opacity: 0.5;
+
+}
+
+h1 {
+    /* Pizzeria La Manu */
+position: absolute;
+width: 80%;
+height: 40rem;
+left: 10%;
+top: 20rem;
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 112px;
+text-align: center;
+
+color: #4E4747;
+}
