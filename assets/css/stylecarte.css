@@ -1,33 +1,51 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-ul{
-    list-style: none;
-    margin: 0px; /* Pour supprimer les paramètres du navigateur par défaut*/
-    padding: 0px;/* Pour supprimer les paramètres du navigateur par défaut*/
-    overflow: hidden;
-    background-color: rgba(137, 121, 121, 0.273);
-}
-.bandeau{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-li{
-    float: right;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 
+#carte {
+    display: flex;
+}
+#carte1{
+    width: 60%;
+    display: flex;
 }
 
-.glaces_vins{
-    float: left;
-    width: 200px;
-
+#carte1_1{
+    width: 75%;
 }
+
+#carte1_2{
+    width: 25%;
+}
+.prix_pizzas{
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 35px;
+}
+#carte2{
+    display: flex;
+    width: 35%;
+}
+
+#carte2_1{
+    width: 70%; 
+}
+
+#carte2_2{
+    width: 30%; 
+}
+.prix_glaces{
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+.prix_vins{
+    padding-top: 30px;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+
+
+
+
